@@ -21,6 +21,11 @@
             "required": true,
             "value": "en"
         },
+        "ANTI_FAKE_REMOVE": {
+            "description": "Fake number auto remover (Except Indian numbers)! Give true for activating!",
+            "required": true,
+            "value": "false"
+        },
         "AUTO_BIO": {
             "description": "Change Your live Bio",
             "required": false,

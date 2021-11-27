@@ -75,7 +75,7 @@ async function whatsAsena () {
     conn.version = [3, 3234, 9];
     const Session = new StringSession();
     conn.version = [2, 2140, 12]
-    conn.browserDescription = ['Jimbru', 'Firefox', '90']
+    conn.browserDescription = ['JIMBRU v3.0.1', 'Safari', '90']
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;

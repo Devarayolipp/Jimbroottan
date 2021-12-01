@@ -56,8 +56,8 @@
             "required": false,
             "value": "@the_real_mikhaiel"
         },
-        "ANTİ_LİNK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
+        "WHATS_LINK_BLOCK": {
+            "description": "Whatsapp Link Blocking System [ only whatsapp links ] .",
             "required": true,
             "value": "false"
         },

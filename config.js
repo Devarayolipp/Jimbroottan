@@ -20,7 +20,7 @@ module.exports = {
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTO_BIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
     REMOVE: process.env.THERI_KICK_GP === undefined ? 'false' : process.env.THERI_KICK_GP,
-FAKER: process.env.ANTI_FAKE_REMOVE === undefined ? 'false' : process.env.ANTI_FAKE_REMOVE,
+    FAKER: process.env.ANTI_FAKE_REMOVE === undefined ? 'false' : process.env.ANTI_FAKE_REMOVE,
     JINN: process.env.ALL_CAPTION === undefined ? 'MADE BY JIMBRU' : process.env.ALL_CAPTION,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
     PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
@@ -32,7 +32,7 @@ FAKER: process.env.ANTI_FAKE_REMOVE === undefined ? 'false' : process.env.ANTI_F
     MENTION: process.env.TAG_REPLY === undefined ? '919544846609@s.whatsapp.net' : process.env.TAG_REPLY,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
-
+    WHATS_LINK_BLOCK: process.env.WHATS_LINK_BLOCK === undefined ? 'false' : process.env.WHATS_LINK_BLOCK,
     BUTTON_REPLY_ONE: process.env.BUTTON_REPLY_ONE === undefined ? 'mone ninak vere pani onnulle' : process.env.BUTTON_REPLY_ONE,
     BUTTON_REPLY_TWO: process.env.BUTTON_REPLY_TWO === undefined ? 'nthaa mownu' : process.env.BUTTON_REPLY_TWO,
 

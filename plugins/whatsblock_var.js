@@ -1,14 +1,12 @@
-/* Copyright (C) 2021 Mikhaiel.
+/*
+ Copyright (C) 2021 Mikhaiel.
 
 Licensed under the  GPL-3.0 License;
 
 you may not use this file except in compliance with the License.
-
-
-
 */
 
-const Neotro = require('../events');
+const Jimbru = require('../events');
 
 const config = require('../config');
 
@@ -22,15 +20,15 @@ const heroku = new Heroku({
 
 let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
-   var l_dsc = ''
+    var l_dsc = ''
 
     var alr_on = ''
 
     var alr_off = ''
 
-    var TLINK_on = ''
+    var LINK_on = ''
 
-    var TLINK_off = ''
+    var LINK_off = ''
 
    
 
@@ -42,29 +40,29 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
         alr_off = '!'
 
-        LINKT_on = '*TURNED ON*'
+        LINK_on = '*Whatsapp Link Blocking System Turned ON 👿*'
 
-        LINKT_off = 'TURNED OFF*'
+        LINK_off = '*Whatsapp Link Blocking System Turned OFF 😖*'
 
     }
 
     if (config.LANG == 'ML') {
 
-        l_dsc = '*Whatsapp Group Link Remover .*'
+        l_dsc = '*Whatsapp Group Link Remover.*'
 
-        alr_on = 'whatslink blocker tuon 
+        alr_on = '!' 
 
-        alr_off = '⛔.'
+        alr_off = '!'
 
-        LINKT_on = 'm'
+        LINK_on = '*whatsapp ലിങ്ക് ബ്ലോക്ക് ചെയ്യൽ ഓണാക്കി.*'
 
-        LINKT_off = 'mk.'
+        LINK_off = '*whatsapp ലിങ്ക് ബ്ലോക്ക് ഓഫ് ആക്കി.*'
 
     }
 
    
 
-    Neotro.addCommand({pattern: 'whatsblock ?(.*)', fromMe: true, desc: l_dsc, usage: '.blocklink on / of' }, (async (message, match) => {
+    Jimbru.addCommand({pattern: 'whatsblock ?(.*)', fromMe: true, desc: l_dsc, usage: '.whatsblock on / of' }, (async (message, match) => {
 
         if (match[1] == 'off') {
 
@@ -78,7 +76,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
                 });
 
-                await message.sendMessage(LINKT_off)
+                await message.sendMessage(LINK_off)
 
         } else if (match[1] == 'on') {
 
@@ -92,7 +90,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
                 });
 
-                await message.sendMessage(LINKT_on)
+                await message.sendMessage(LINK_on)
 
         }
 

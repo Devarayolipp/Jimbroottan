@@ -1,14 +1,14 @@
 {
-  "name": "Jimbrootan",
+  "name": "Jimbroottan",
   "version": "7.3.6",
   "description": ".",
-  "main": "./Jimbrootan/bot.js",
+  "main": "./Jimbroottan/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mikhaiel/Jimbrootan.git"
+    "url": "git+https://github.com/Mikhaiel/Jimbroottan.git"
   },
   "keywords": [
     "whatsapp",

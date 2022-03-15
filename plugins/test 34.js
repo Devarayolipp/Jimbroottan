@@ -133,7 +133,7 @@ Asena.addCommand({ pattern: 'twt ?(.*)', fromMe: false,  dontAddCommandList: tru
         async (err) => await message.sendMessage(errorMessage("Error" )),
       )
   },
-)*/
+)
 
 
 

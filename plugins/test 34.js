@@ -33,7 +33,7 @@ Asena.addCommand({pattern: 'want ?(.*)', fromMe: false}, async (message, match) 
 	}
 });
 
-
+/*
 Asena.addCommand({ pattern: 'joox ?(.*)', fromMe: false, dontAddCommandList: true}, async (message, match) => {
 
     const userName = match[1]
@@ -195,3 +195,4 @@ Asena.addCommand({ pattern: 'show ?(.*)', fromMe: false , dontAddCommandList: tr
       )
   },
 )
+*/
